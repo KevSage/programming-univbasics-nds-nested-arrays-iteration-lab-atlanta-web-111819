@@ -20,8 +20,7 @@ def join_ingredients(src)
     pairs = 0
     while pairs < src.count do
       max_array << src[pairs].max
-      print max_array
-      pairs =+ 1
+      pairs += 1
     end
 end
 
