@@ -33,4 +33,13 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  grand_sum = 0
+  num_pair = 0
+  while num_pair < src.count do
+    if src[num_pair][0] % 2 && src[num_pair][1] % 2 == 0 do
+      grand_sum += src[num_pair][0] + src[num_pair][1]
+    end
+      num_pair += 1
+  end
+  grand_sum
 end
