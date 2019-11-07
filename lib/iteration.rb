@@ -22,6 +22,7 @@ def join_ingredients(src)
       max_array << src[pairs].max
       pairs += 1
     end
+    max_array
 end
 
 def total_even_pairs(src)
